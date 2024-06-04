@@ -24,7 +24,7 @@ export const SERVER_DOMAIN_URL = process.env.REACT_APP_REST_API_SERVER_DOMAIN;
 export const SERVER_API_URL = `${SERVER_DOMAIN_URL}/api/v1`;
 export const SERVER_AUTH_MODULE_URL = `${SERVER_API_URL}/auth`;
 
-export const SNS_SIGN_IN_REQUEST_URL = (type: string) => `${SERVER_AUTH_MODULE_URL}/oauth2/${type}`;
+export const SNS_SIGN_IN_REQUEST_URL = (type : string) => `${SERVER_AUTH_MODULE_URL}/oauth2/${type}`;
 
 export const SIGN_IN_REQUEST_URL = `${SERVER_AUTH_MODULE_URL}/sign-in`;
 export const ID_CHECK_REQUEST_URL = `${SERVER_AUTH_MODULE_URL}/id-check`;
